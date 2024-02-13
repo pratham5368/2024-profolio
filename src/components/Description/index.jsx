@@ -5,7 +5,7 @@ import { slideUp, opacity } from './animation';
 import Rounded from '../../common/RoundedButton';
 export default function index() {
 
-    const phrase = "I am a web developer specializing in the dynamic realms of React, Vue, Tailwind CSS, SCSS, GSAP, and Framer Motion. With a passion for crafting immersive and user-centric digital experiences. I possess a comprehensive understanding of back-end technologies, ensuring that the entire development stack operates harmoniously.Collaboration is at the heart of my work.";
+    const phrase = "I am a Frontend developer specializing in the dynamic realms of React, Vue, Tailwind CSS, SCSS, GSAP, and Framer Motion. I possess a comprehensive understanding of back-end technologies, ensuring that the entire development stack operates harmoniously.Collaboration is at the heart of my work.";
     const description = useRef(null);
     const isInView = useInView(description)
     return (

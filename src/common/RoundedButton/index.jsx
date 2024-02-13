@@ -13,7 +13,7 @@ export default function index({children, backgroundColor="#455CE9", ...attribute
     timeline.current = gsap.timeline({paused: true})
     timeline.current
       .to(circle.current, {top: "-25%", width: "150%", duration: 0.4, ease: "power3.in"}, "enter")
-      .to(circle.current, {top: "-150%", width: "125%", duration: 0.25}, "exit")
+      .to(circle.current, {top: "-150%", width: "125%", duration: 0.5}, "exit")
   }, [])
   
   const manageMouseEnter = () => {
@@ -24,7 +24,7 @@ export default function index({children, backgroundColor="#455CE9", ...attribute
   const manageMouseLeave = () => {
     timeoutId = setTimeout( () => {
       timeline.current.play();
-    }, 300)
+    }, 800)
   }
 
   return (

@@ -14,7 +14,7 @@ const navItems = [
   },
   {
     title: "Work",
-    href: "/work",
+    href: "/skills",
   },
   {
     title: "About",
