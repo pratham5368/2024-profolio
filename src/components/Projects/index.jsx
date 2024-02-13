@@ -13,21 +13,22 @@ const projects = [
     src: "Image Gsap animation.png",
     color: "#000000",
     href: "https://github.com/"
+    
   },
   {
     title: "Cursor Disorted",
     src: "cursor disorted.png",
-    color: "#8C8C8C"
+    color: "#000000"
   },
   {
     title: "Exercise website",
     src: "Exercise website.png",
-    color: "#EFE8D3"
+    color: "#000000"
   },
   {
     title: "Threejs website",
     src: "threejs profolio.png",
-    color: "#706D63"
+    color: "#000000"
   }
 ]
 
