@@ -9,6 +9,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Rounded from '../../common/RoundedButton';
 import Magnetic from '../../common/Magnetic';
 import Link from 'next/link';
+/*import link from '../../pages/About/about'*/
 
 
 
@@ -38,18 +39,22 @@ export default function index() {
     return (
         <>
         <div ref={header} className={styles.header}>
+        <Magnetic>
             <div className={styles.logo}>
-                <p className={styles.copyright}>©</p>
-                <div className={styles.name}>
+                
+                  <p className={styles.copyright}>©</p>
+                  <div className={styles.name}>
                     <p className={styles.codeBy}>Code by</p>
                     <p className={styles.dennis}>Pratham</p>
                     <p className={styles.snellenberg}>Rai</p>
-                </div>
+                  </div>
+                
             </div>
+            </Magnetic>
             <div className={styles.nav}>
                 <Magnetic>
                     <div className={styles.el}>
-                        <Link href="" className={styles.Link}>Work</Link>
+                        <Link href="https://github.com/pratham5368" className={styles.Link}>Work</Link>
                         <div className={styles.indicator}></div>
                     </div>
                 </Magnetic>

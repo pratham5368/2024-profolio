@@ -2,6 +2,8 @@
 import styles from './page.module.css'
 import { useRef, useEffect } from 'react';
 import Rounded from '../../common/RoundedButton';
+import Magnetic from '../../common/Magnetic';
+
 
 export default function Home() {
 
@@ -76,38 +78,38 @@ export default function Home() {
             <div className={styles.tagsContainer}>
               <p>Languages and framework</p>
               <div className={styles.tags}>
-                <p>JavaScript</p>
-                <p>Reactjs</p>
-                <p>python</p>
-                <p>Css</p>
-                <p>Typescript</p>
-                <p>Scss</p>
-                <p>TailwindCSS</p>
-                <p>Vue</p>
-                <p>Redux</p>
-                <p>Nextjs</p>
-                <p>Next Auth</p>
-                <p>Shadcn UI</p>
-                <p>nodejs</p>
-                <p>material UI</p>
-                <p>Gsap</p>
-                <p>Framer motion</p>
+              <Rounded><p>JavaScript</p></Rounded>
+              <Rounded><p>Reactjs</p></Rounded>
+              <Rounded><p>python</p></Rounded>
+              <Rounded><p>Css</p></Rounded>
+              <Rounded><p>Typescript</p></Rounded>
+              <Rounded><p>Scss</p></Rounded>
+              <Rounded><p>TailwindCSS</p></Rounded>
+              <Rounded><p>Vue</p></Rounded>
+              <Rounded><p>Redux</p></Rounded>
+              <Rounded><p>Nextjs</p></Rounded>
+              <Rounded><p>Next Auth</p></Rounded>
+              <Rounded><p>Shadcn UI</p></Rounded>
+              <Rounded><p>nodejs</p></Rounded>
+              <Rounded><p>material UI</p></Rounded>
+              <Rounded><p>Gsap</p></Rounded>
+              <Rounded><p>Framer motion</p></Rounded>
               </div>
             </div>
             <div className={styles.tagsContainer}>
               <p>Tools</p>
               <div className={styles.tags}>
-                <p>Git</p>
-                <p>Github</p>
-                <p>Jira</p>
-                <p>Slack</p>
-                <p>Vercel</p>
-                <p>Figma</p>
-                <p>firebase</p>
-                <p>mongobd</p>
-                <p>Prisma</p>
-                <p>convexdb</p>
-                <p>clerk</p>
+              <Rounded><p>Git</p></Rounded>
+              <Rounded><p>Github</p></Rounded>
+              <Rounded><p>Jira</p></Rounded>
+              <Rounded><p>Slack</p></Rounded>
+              <Rounded><p>Vercel</p></Rounded>
+              <Rounded><p>Figma</p></Rounded>
+              <Rounded><p>firebase</p></Rounded>
+              <Rounded><p>mongobd</p></Rounded>
+              <Rounded><p>Prisma</p></Rounded>
+              <Rounded><p>convexdb</p></Rounded>
+              <Rounded><p>clerk</p></Rounded>
               </div>
             </div>
             <div data-scroll data-scroll-speed={0.1}>

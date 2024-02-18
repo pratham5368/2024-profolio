@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
+import Link from 'next/link';
 
 const projects = [
   {
@@ -83,12 +84,12 @@ export default function Home() {
     <div className={styles.body}>
       {
         projects.map( (project, index) => {
-          return <Project index={index} title={project.title} manageModal={manageModal}  key={index}/>
+          return <Project index={index} title={project.title} manageModal={manageModal} href={project.href}  key={index}  />
         })
       }
     </div>
     <Rounded>
-      <p>More work</p>
+       <Link href="https://github.com/pratham5368" className={styles.Link}><p>More work</p></Link>
     </Rounded>
     <>
         <motion.div ref={modalContainer} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"} className={styles.modalContainer}>
@@ -109,7 +110,7 @@ export default function Home() {
             </div>
         </motion.div>
         <motion.div ref={cursor} className={styles.cursor} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
-        <motion.div ref={cursorLabel} className={styles.cursorLabel} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}>View</motion.div>
+        <motion.div ref={cursorLabel} className={styles.cursorLabel} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed" }>View</motion.div>
     </>
   </main>
   )
