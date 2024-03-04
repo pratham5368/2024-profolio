@@ -97,7 +97,7 @@ export default function Home() {
             {
                 projects.map( (project, index) => {
                 const { src, color } = project
-                return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`}>
+                return <div className={styles.modal} style={{backgroundColor: color}} key={`modal_${index}`} >
                     <Image 
                     src={`/images/${src}`}
                     width={300}
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
         </motion.div>
         <motion.div ref={cursor} className={styles.cursor} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed"}></motion.div>
-        <motion.div ref={cursorLabel} className={styles.cursorLabel} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed" }>View</motion.div>
+        <motion.div ref={cursorLabel} className={styles.cursorLabel} variants={scaleAnimation} initial="initial" animate={active ? "enter" : "closed" } href="https://pratham-rai.vercel.app/" >View</motion.div>
     </>
   </main>
   )
