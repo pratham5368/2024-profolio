@@ -1,0 +1,20 @@
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+  .gallery{
+    width: 70%;
+  }
+  .Link {
+    text-decoration: none;
+    color: black;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8vh;
+}
