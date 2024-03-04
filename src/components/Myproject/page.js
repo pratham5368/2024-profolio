@@ -3,6 +3,7 @@ import styles from './page.module.css';
 import Rounded from '../../common/RoundedButton';
 import Project from './prject/project';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
 
@@ -10,32 +11,32 @@ export default function Home() {
     {
       title1: "Thwine",
       title2: "Design",
-      src: "powell.png",
-      href: "elite01.vercel.app/"
+      src: "Screenshot (52).png",
+      href: "https://elite01.vercel.app/"
     },
     {
-      title1: "La",
-      title2: "Grange",
-      src: "threejs profolio.png",
-      href: "https://github.com/"
+      title1: "Linear",
+      title2: "Clone",
+      src: "Screenshot 2024-03-02 042238.png",
+      href: "https://travclan.vercel.app/"
     },
     {
-      title1: "Deux Huit",
-      title2: "Huit",
-      src: "deux_huit_huit.jpeg",
-      href: "https://github.com/"
+      title1: "Exercise",
+      title2: "Website",
+      src: "Exercise website.png",
+      href: "https://exercise-psi.vercel.app/"
     },
     {
-      title1: "Nothing",
-      title2: "Design Studio",
-      src: "nothing_design_studio.png",
-      href: "https://github.com/"
+      title1: "Notion",
+      title2: "Design",
+      src: "Screenshot (53).png",
+      href: "https://notion-landing-page-rho.vercel.app/"
     },
     {
-      title1: "Mambo",
-      title2: "Mambo",
-      src: "mambo_mambo.jpeg",
-      href: "https://github.com/"
+      title1: "Image",
+      title2: "Animation",
+      src: "Image Gsap animation.png",
+      href: "https://wierd-image-moving-gsap.vercel.app/"
     }
   ]
 
